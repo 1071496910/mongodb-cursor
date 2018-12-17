@@ -1,0 +1,59 @@
+hash: 2a10d200cc5ceb147061dbe9ec8f03530d096546bc5c8dfc5251a0c42f66c946
+updated: 2018-12-17T15:54:49.423305379+08:00
+imports:
+- name: github.com/go-stack/stack
+  version: 2fee6af1a9795aafbe0253a0cfbdf668e1fb8a9a
+- name: github.com/golang/snappy
+  version: 2e65f85255dbc3072edf28d6b5b8efc472979f5a
+- name: github.com/mongodb/mongo-go-driver
+  version: 29905d4bda472574c8b499e2f93b5b2747d8fbd7
+  subpackages:
+  - bson
+  - bson/bsoncodec
+  - bson/bsonrw
+  - bson/bsontype
+  - bson/primitive
+  - event
+  - internal
+  - mongo
+  - mongo/bson
+  - mongo/options
+  - mongo/readconcern
+  - mongo/readpref
+  - mongo/writeconcern
+  - tag
+  - version
+  - x/bsonx
+  - x/bsonx/bsoncore
+  - x/mongo/driver
+  - x/mongo/driver/auth
+  - x/mongo/driver/auth/internal/gssapi
+  - x/mongo/driver/session
+  - x/mongo/driver/topology
+  - x/mongo/driver/uuid
+  - x/network/address
+  - x/network/command
+  - x/network/compressor
+  - x/network/connection
+  - x/network/connstring
+  - x/network/description
+  - x/network/result
+  - x/network/wiremessage
+- name: github.com/xdg/scram
+  version: 7eeb5667e42c09cb51bf7b7c28aea8c56767da90
+- name: github.com/xdg/stringprep
+  version: 73f8eece6fdcd902c185bf651de50f3828bed5ed
+- name: golang.org/x/crypto
+  version: 1f22c0103821b9390939b6776727195525381532
+  subpackages:
+  - pbkdf2
+- name: golang.org/x/sync
+  version: 42b317875d0fa942474b76e1b46a6060d720ae6e
+  subpackages:
+  - semaphore
+- name: golang.org/x/text
+  version: 2910a502d2bf9e43193af9d68ca516529614eed3
+  subpackages:
+  - transform
+  - unicode/norm
+testImports: []
